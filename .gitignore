@@ -1,20 +1,26 @@
+# Build folders
 build/
 cmake-build-debug/
 cmake-build-release/
 cmake-build-*/
 
+# Database (generated at runtime)
 *.db
 
+# CLion
 .idea/
 *.user
 
+# Qt auto-generated files
 moc_*.cpp
 ui_*.h
 qrc_*.cpp
 
+# Compiled output
 *.exe
 *.o
 *.obj
 
+# OS
 .DS_Store
 Thumbs.db
